@@ -6,11 +6,12 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "mocha -r ts-node/register test/index.ts"
+    "test": "mocha --watch --watch-files ./src/** -r  ts-node/register **/*.test.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.2.22",
     "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.11",
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
     "ts-node": "^10.4.0",
