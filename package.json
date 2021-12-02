@@ -1,0 +1,34 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "Template for typescript node projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/index.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apieceofbart/typescript-template.git"
+  },
+  "keywords": [
+    "typecript",
+    "template",
+    "node"
+  ],
+  "author": "Bartek Kozera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apieceofbart/typescript-template/issues"
+  },
+  "homepage": "https://github.com/apieceofbart/typescript-template#readme"
+}
