@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --watch --watch-files ./src/** -r  ts-node/register **/*.test.ts"
+    "test": "mocha --watch --watch-files ./src/** -r  ts-node/register **/*.test.ts",
+    "generate-day": "ts-node generateDay"
   },
   "devDependencies": {
     "@types/chai": "^4.2.22",
@@ -31,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/apieceofbart/typescript-template/issues"
   },
-  "homepage": "https://github.com/apieceofbart/typescript-template#readme"
+  "homepage": "https://github.com/apieceofbart/typescript-template#readme",
+  "dependencies": {}
 }
